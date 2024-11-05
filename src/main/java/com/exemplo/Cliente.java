@@ -1,9 +1,9 @@
 package com.exemplo;
 
 public class Cliente {
-    private String nome;
-    private String telefone;
-    private String cpf;
+    private final String nome;
+    private final String telefone;
+    private final String cpf;
 
     public Cliente(String nome, String telefone, String cpf) {
         this.nome = nome;
